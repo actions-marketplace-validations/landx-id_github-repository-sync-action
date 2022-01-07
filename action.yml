@@ -11,6 +11,12 @@ inputs:
   target_repo_url:
     description: Target git repository URL
     required: true
+  destination_branch:
+    description: Destination branch on target repository
+    required: true
+  source_branch:
+    description: Source branch on source repository
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
