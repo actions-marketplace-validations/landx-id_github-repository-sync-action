@@ -1,4 +1,4 @@
-name: Git Repository Sync
+name: LandX Git Repository Sync
 description: Sync current repository to a remote repository on GitHub, GitLab, AWS CodeCommit, etc.
 author: NetEngine
 branding:
